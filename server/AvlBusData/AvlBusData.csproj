@@ -157,8 +157,9 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocationsController.cs" />
-    <Compile Include="Controllers\data.cs" />
+    <Compile Include="Controllers\Data.cs" />
     <Compile Include="Controllers\PredictionsController.cs" />
+    <Compile Include="Controllers\RouteColorssController.cs" />
     <Compile Include="Controllers\RoutesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

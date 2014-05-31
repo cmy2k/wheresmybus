@@ -20,7 +20,7 @@ namespace AvlBusData.Controllers
         {
             get
             {
-                if (_locations == null || (_locations.LastTimeUtc - DateTime.UtcNow) > TimeSpan.FromSeconds(10))
+                if (_locations == null || (DateTime.UtcNow - _locations.LastTimeUtc) > TimeSpan.FromSeconds(10))
                 {
                     var command = new VehicleLocationsCommand();
                     try
