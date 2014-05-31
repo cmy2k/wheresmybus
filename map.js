@@ -21,12 +21,41 @@ $(document).ready(function() {
 	    attribution: "Bus stops"
     }).addTo(map);
 
+    $.getJSON('data/busstops.json', function(json) {
+	L.geoJson( json, {
+	    style: function(feature) {
+		return {color: '#000000'};
+	    }
+	} ).addTo(map);
+    });
+
+/*
+
     var routes = L.tileLayer.wms("http://opendataserver.ashevillenc.gov/geoserver/ows", {
 	    layers: 'coa_transit_bus_routes',
 	    format: 'image/png',
 	    transparent: true,
 	    attribution: "Bus routes"
     }).addTo(map);
+*/
+
+$.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors){
+    $.getJSON('data/busroutes.json', function(json) {
+	L.geoJson( json, {
+	    style: function(feature) {
+		//console.log( colors[feature.properties.route_number.toLowerCase()] );
+		return {weight: 10,
+			opacity: 0.80,
+			color: colors[feature.properties.route_number]};
+	    }
+	} ).addTo(map);
+    });
+});
+
+//    
+//    
+
+    
 
     /*
     var layerControl = L.control.layers(
