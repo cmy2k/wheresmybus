@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using NextBus.NET;
 
 namespace AvlBusData
 {
@@ -6,6 +7,8 @@ namespace AvlBusData
     {
         public static void Register(HttpConfiguration config)
         {
+            NextBusApi.AgencyTag = "art";
+
             // Web API configuration and services
             config.EnableCors();
 

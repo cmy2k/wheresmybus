@@ -1,17 +1,18 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using System.Web.Http.Results;
-using NextBus.NET.ApiCommands;
+using NextBus.NET.Entities;
 
 namespace AvlBusData.Controllers
 {
     [EnableCors(origins:"*", headers: "*", methods: "*")]
-    public class LocationsController : ApiController
+    public class RoutesController : ApiController
     {
-        public JsonResult<List<VehicleLocation>> Get()
+        public JsonResult<List<Route>> Get()
         {
-            return Json(Data.Locations.Locations, Data.JsonSettings);
+            return Json(Data.Routes.Values.ToList(), Data.JsonSettings);
         }
     }
 }

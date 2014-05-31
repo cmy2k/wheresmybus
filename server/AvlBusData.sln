@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvlBusData", "AvlBusData\AvlBusData.csproj", "{079170CA-C6F7-4DF1-B3D7-6D02B11A1751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.NET", "..\NextBus.NET\NextBus.NET\NextBus.NET.csproj", "{A2ED037A-81A6-4DDA-8B5C-629F417304B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBus.NET", "..\..\..\NextBus.NET\NextBus.NET\NextBus.NET.csproj", "{A2ED037A-81A6-4DDA-8B5C-629F417304B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
