@@ -45,23 +45,24 @@
         <!--The mobile navigation Markup hidden via css-->
         <nav class="mobileNav">
             <ul>
-                <li><a href="#">Going to Airport?</a>
+              <li><a id="clickair" href="#">Going to Airport?</a>
 					<div class="directions" >
-						<ul>
-							<li>Southeast on Broadway to W. Walnut St. (0.2mi)</li>
-							<li><span class="urgent">5 min</span> Route S3 towards Asheville Airport</li>
-							<li>Exit Terminal Dr at Asheville Regional Airport</li>
+						<ul id="airport">
 						</ul>
 					</div>
 				</li>
-                <li><a href="#">Going Home?</a>
+                <li><a id="clickhome" href="#">Going Home?</a>
 					<div class="directions" >
-						<ul>
-							<li></li>
+						<ul id="home">
 						</ul>
 					</div>
 				</li>
-                <li><a href="#">Going Downtown?</a></li>
+                <li><a id="clickdown" href="#">Going Downtown?</a>					
+		                        <div class="directions" >
+						<ul id="downtown">
+						</ul>
+					</div>
+		                </li>
                 <li><form name="go" action="#">               
 					I'm going to <input type="text" name="location"/>...
 					<br/>

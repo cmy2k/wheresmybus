@@ -141,11 +141,16 @@ $.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors
 
     var fake = 'google.json';
 
-    $.getJSON(fake, function(data) {
-	$.each(data.routes[0].legs[0].steps, function(i, inst) {
-	    $('ul', '.directions').append('<li>' + inst.html_instructions + '</li>');
+    $('#clickair').on('click', function(){
+	$.getJSON(fake, function(data) {
+	    $('#airport').html('');
+	    $.each(data.routes[0].legs[0].steps, function(i, inst) {
+		$('#airport').append('<li>' + inst.html_instructions + '</li>');
+	    });
 	});
+
     });
+
 
 });
 
