@@ -45,7 +45,7 @@ $.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors
 	    style: function(feature) {
 		//console.log( colors[feature.properties.route_number.toLowerCase()] );
 		return {weight: 10,
-			opacity: 0.80,
+			opacity: 1.0,
 			color: colors[feature.properties.route_number]};
 	    }
 	} ).addTo(map);
@@ -69,7 +69,7 @@ $.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors
 	    {}).addTo(map);
 */
 
-    var locate = L.control.locate({follow: true}).addTo(map);
+    var locate = L.control.locate({}).addTo(map);
 
     $('#locateBtn').on('click', function(){
 	$('#contentLayer').trigger('click');
