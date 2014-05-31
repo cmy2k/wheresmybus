@@ -32,7 +32,7 @@ position absolute isset to cover the whole viewport
     padding: 52px 10px 10px 10px;
     position: relative;
     width: auto;
-    min-height: 1000px;
+    min-height: 800px;
     -webkit-box-shadow:  -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
     box-shadow:  -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
 }
