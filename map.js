@@ -40,7 +40,7 @@ $(document).ready(function() {
 	    {}).addTo(map);
 */
 
-    var locate = L.control.locate().addTo(map);
+    var locate = L.control.locate({follow: true}).addTo(map);
 
     $('#locateBtn').on('click', function(){
 	$('#contentLayer').trigger('click');
