@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Wheres My Bus At?</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Using jQuery and jQuery UI for display effects-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <!--Using the hamburger menu display code-->
+    <script src="js/hamburger.js"></script>
+    <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
+    <link rel="stylesheet" type="text/css" media="all" href="css/hamburger.css" />
     <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="map.css" />
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+<!--    <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
     <script src="node_modules/leaflet/dist/leaflet.js"></script>
     <link rel="stylesheet" href="lib/leaflet-locatecontrol/src/L.Control.Locate.css" />
     <!--[if lt IE 9]>
@@ -12,17 +20,45 @@
         <![endif]-->
     <script src="lib/leaflet-locatecontrol/src/L.Control.Locate.js" ></script>
     <script src="map.js"></script>
-    <style type="text/css">
-      html, body, #mapcontainer {
-         margin: 0;
-         width: 100%;
-         height: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="mapcontainer">
-      <div id="map"></div>
+</head>
+
+<body>
+
+    <!--This wrapping container is used to get the width of the whole content-->
+    <div id="container">
+
+        <!--The Hamburger Button in the Header-->
+        <header>
+            <div id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </header>
+
+        <!--The mobile navigation Markup hidden via css-->
+        <nav class="mobileNav">
+            <ul>
+	        <li><a id="locateBtn" href="#">Zoom to me</a></li>
+                <li><a href="#">Going Home?</a></li>
+                <li><a href="#">Going Downtown?</a></li>
+                <li><form name="go" action="#">               
+					I'm going to <input type="text" name="location"/>...
+					<br/>
+					<a style="padding-left:15;" href='#'>Take me there!</a></li>
+                </form>
+            </ul>
+        </nav>
+
+        <!--The Layer that will be layed over the content
+        so that the content is unclickable while menu is shown-->
+        <div id="contentLayer"></div>
+
+        <!--The content of the site-->
+        <div id="content">
+            <div id="map"></div>
+        </div>
+
     </div>
-  </body>
+</body>
 </html>
