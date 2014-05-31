@@ -8,6 +8,8 @@ $(document).ready(function() {
         // options here
     }).setView([35.596, -82.55], 14);
 
+    map.zoomControl.removeFrom(map);
+
     var osmBaseLayer = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 18
     }).addTo(map);
@@ -26,6 +28,7 @@ $(document).ready(function() {
 	    attribution: "Bus routes"
     }).addTo(map);
 
+    /*
     var layerControl = L.control.layers(
 	    {
             'Open Street Map' : osmBaseLayer
@@ -35,9 +38,20 @@ $(document).ready(function() {
 	        'Stops': busStops
 	    }, 
 	    {}).addTo(map);
+*/
 
     var locate = L.control.locate().addTo(map);
-    locate.locate();
+
+    $('#locateBtn').on('click', function(){
+	$('#contentLayer').trigger('click');
+	locate.locate();
+    });
+
+    $('.leaflet-control-locate').hide();
+
+    // move locate to another container
+
+
 
     getBusLocations();
 
