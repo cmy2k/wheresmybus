@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var restEndpoint = 'http://api.ashevilletechevents.com/api/locations';
     //var restEndpoint = './mock.json';
-    var cloudmade_api_key = "8ee2a50541944fb9bcedded5165f09d9";
+    var busMarkers = [];
 
     var map = L.map('map', {
         // options here
