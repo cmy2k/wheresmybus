@@ -13,6 +13,7 @@ body {
 Header is relative so z-index: 1 guarantees always displayed on top
 */
 header {
+    overflow: auto;
     background-color: #3b5998;
     padding: 10px;
     text-decoration: none;
@@ -58,10 +59,11 @@ the hamburger button with a little gradient effekt
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4569b2', endColorstr='#4062a5',GradientType=0 );
 }
 #hamburger {
-    position: float-left;
+    float: left;
 }
 #target {
-    position: float-right;
+    float: right;
+    margin: 4px 20px 0px 0px;
 }
 /*
 The white stripes in the hamburger button
