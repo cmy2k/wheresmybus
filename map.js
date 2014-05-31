@@ -9,7 +9,7 @@ $(document).ready(function() {
     }).setView([35.596, -82.55], 14);
 
     var osmBaseLayer = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 18
+        maxZoom: 20
     }).addTo(map);
 
     var busStops = L.tileLayer.wms("http://opendataserver.ashevillenc.gov/geoserver/ows", {
