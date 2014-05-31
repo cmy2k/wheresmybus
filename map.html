@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mobile Menu Hamburger</title>
+    <title>Wheres My Bus At?</title>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <!--Using jQuery and jQuery UI for display effects-->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-
     <!--Using the hamburger menu display code-->
     <script src="js/hamburger.js"></script>
-
     <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
     <link rel="stylesheet" type="text/css" media="all" href="css/hamburger.css" />
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="map.css" />
+<!--    <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
+    <script src="node_modules/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="lib/leaflet-locatecontrol/src/L.Control.Locate.css" />
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="lib/leaflet-locatecontrol/src/L.Control.Locate.ie.css"/>
+        <![endif]-->
+    <script src="lib/leaflet-locatecontrol/src/L.Control.Locate.js" ></script>
+    <script src="map.js"></script>
 </head>
 
 <body>
@@ -46,6 +54,9 @@
 
         <!--The content of the site-->
         <div id="content">
+          <div id="mapcontainer">
+            <div id="map"></div>
+          </div>
         </div>
 
     </div>
