@@ -98,8 +98,8 @@ $(document).ready(function() {
             "iconAnchor"    : [15, 15], // point of the icon which will correspond to marker's location
 
             "shadowUrl"     : shadowUrl,
-            "shadowSize"    : [30, 30], // size of the shadow
-            "shadowAnchor"  : [15, 15],  // the same for the shadow
+            "shadowSize"    : [40, 40], // size of the shadow
+            "shadowAnchor"  : [20, 20],  // the same for the shadow
 
             //popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
         });
