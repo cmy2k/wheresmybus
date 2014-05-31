@@ -1,0 +1,251 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 35.6257706,
+               "lng" : -82.55257750000001
+            },
+            "southwest" : {
+               "lat" : 35.5981968,
+               "lng" : -82.567858
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "arrival_time" : {
+                  "text" : "5:18pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401571116
+               },
+               "departure_time" : {
+                  "text" : "5:03pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401570205
+               },
+               "distance" : {
+                  "text" : "4.3 mi",
+                  "value" : 6921
+               },
+               "duration" : {
+                  "text" : "15 mins",
+                  "value" : 911
+               },
+               "end_address" : "783-795 U.S. 25, Asheville, NC 28804, USA",
+               "end_location" : {
+                  "lat" : 35.6257706,
+                  "lng" : -82.5538378
+               },
+               "start_address" : "12-18 Woodfin Street, Asheville, NC 28801, USA",
+               "start_location" : {
+                  "lat" : 35.5982596,
+                  "lng" : -82.55257750000001
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "177 ft",
+                        "value" : 54
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 35.598441,
+                        "lng" : -82.552993
+                     },
+                     "html_instructions" : "Walk to Broadway St at Woodfin St",
+                     "polyline" : {
+                        "points" : "cxgxErpzvNJv@c@h@KO"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5982596,
+                        "lng" : -82.55257750000001
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 18
+                           },
+                           "end_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eWoodfin St\u003c/b\u003e toward \u003cb\u003eBroadway\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "cxgxErpzvNJv@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5982596,
+                              "lng" : -82.55257750000001
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "92 ft",
+                              "value" : 28
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 16
+                           },
+                           "end_location" : {
+                              "lat" : 35.598441,
+                              "lng" : -82.552993
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBroadway\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "wwgxEjrzvNc@h@KO"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.2 mi",
+                        "value" : 6826
+                     },
+                     "duration" : {
+                        "text" : "14 mins",
+                        "value" : 840
+                     },
+                     "end_location" : {
+                        "lat" : 35.625394,
+                        "lng" : -82.553917
+                     },
+                     "html_instructions" : "Bus towards Beaver Lake Loop",
+                     "polyline" : {
+                        "points" : "gygxEdszvNJN_CbCeDr@iCs@AAuFkAwG_@eJSmCFoAPiHvBoDbAqJpBwGrAmBF}CGcHYcD[Cr@U`IFf@b@~@lEjGDHLh@Dn@U~LGNQbGo@x@_ARyK]u@D]Z[tAc@d@sA?sBOa@Sa@i@YjAEdA@|BLpCRt@p@rAdBpBBBPRfC|@nC`C|@L`AMd@Q^c@lCaEH_@@e@[kAwDyEmCuCg@[_AQi@s@TgATWZGzLZbB[XFNWCSMMP_GEIViMEo@Ss@EGgEcGc@_AGg@XuJmE}@EC}Bs@{BUuB@gLf@}Pt@kH_AoC}@FS"
+                     },
+                     "start_location" : {
+                        "lat" : 35.598441,
+                        "lng" : -82.552993
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.625394,
+                              "lng" : -82.553917
+                           },
+                           "name" : "Merrimon Ave at Gracelyn Rd"
+                        },
+                        "arrival_time" : {
+                           "text" : "5:18pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401571080
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.598441,
+                              "lng" : -82.552993
+                           },
+                           "name" : "Broadway St at Woodfin St"
+                        },
+                        "departure_time" : {
+                           "text" : "5:04pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401570240
+                        },
+                        "headsign" : "Beaver Lake Loop",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#a6d070",
+                           "name" : "North 1",
+                           "short_name" : "N1",
+                           "text_color" : "#000000",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/N1%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 18
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "135 ft",
+                        "value" : 41
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 35.6257706,
+                        "lng" : -82.5538378
+                     },
+                     "html_instructions" : "Walk to 783-795 U.S. 25, Asheville, NC 28804, USA",
+                     "polyline" : {
+                        "points" : "uamxE~xzvNGR]Oe@S"
+                     },
+                     "start_location" : {
+                        "lat" : 35.625394,
+                        "lng" : -82.553917
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "135 ft",
+                              "value" : 41
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 34
+                           },
+                           "end_location" : {
+                              "lat" : 35.6257706,
+                              "lng" : -82.5538378
+                           },
+                           "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003eMerrimon Ave\u003c/b\u003e toward \u003cb\u003eGracelyn Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "polyline" : {
+                              "points" : "uamxE~xzvNGR]Oe@S"
+                           },
+                           "start_location" : {
+                              "lat" : 35.625394,
+                              "lng" : -82.553917
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "cxgxErpzvNJv@c@h@KOJN_CbCeDr@kCu@uFkAwG_@eJSmCFoAPiHvBoDbAqJpBwGrAmBF}CGcHYcD[Cr@U`IFf@b@~@lEjGRr@Dn@U~LGNQbGo@x@_ARyK]u@D]Z[tAc@d@sA?sBOa@Sa@i@YjAEdA@|BLpCRt@p@rAdBpBTVfC|@nC`C|@L`AMd@Q^c@lCaEH_@@e@[kAwDyEmCuCg@[_AQi@s@TgATWZGzLZbB[XFNWCSMMP_GEIViMEo@Y{@gEcGc@_AGg@XuJsEaA}Bs@{BUuB@gLf@}Pt@kH_AoC}@FSGR]Oe@S"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

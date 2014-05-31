@@ -137,5 +137,20 @@ $.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors
         busMarkers.push(marker);
     }
 
+    var live = 'https://maps.googleapis.com/maps/api/directions/json?origin=35.598127,-82.552533&destination=35.436967,-82.536871&sensor=false&key=AIzaSyBKy2YUCCMY79tYdTkcdAYJJAEN6WsIhIE&departure_time=1401549743&mode=transit';
+
+    var fake = 'google.json';
+
+    $('#clickair').on('click', function(){
+	$.getJSON(fake, function(data) {
+	    $('#airport').html('');
+	    $.each(data.routes[0].legs[0].steps, function(i, inst) {
+		$('#airport').append('<li>' + inst.html_instructions + '</li>');
+	    });
+	});
+
+    });
+
+
 });
 
