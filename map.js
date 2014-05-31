@@ -79,9 +79,32 @@ $(document).ready(function() {
         });
     }
 
+
+    function roundToNearest45(angle) {
+        var val = Math.round(angle/45.0) * 45.0
+        if (val === 360) { val = 0; }
+        return val;
+    }
+
     function translateJson(bus) {
         var latlng = new L.latLng(bus.location.lat, bus.location.lon);
-        var marker = L.marker(latlng, { });
+
+        var iconUrl   = 'server/AvlBusData/img/' + bus.routeTitle + '.png';
+        var shadowUrl = 'server/AvlBusData/img/Arrow' + roundToNearest45(bus.heading) + '.png';
+
+        var busIcon = L.icon({
+            "iconUrl"       : iconUrl,
+            "iconSize"      : [30, 30], // size of the icon
+            "iconAnchor"    : [15, 15], // point of the icon which will correspond to marker's location
+
+            "shadowUrl"     : shadowUrl,
+            "shadowSize"    : [30, 30], // size of the shadow
+            "shadowAnchor"  : [15, 15],  // the same for the shadow
+
+            //popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+
+        var marker = L.marker(latlng, { icon : busIcon });
         busMarkers.push(marker);
     }
 
