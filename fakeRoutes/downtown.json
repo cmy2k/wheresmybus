@@ -1,0 +1,299 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 35.59837,
+               "lng" : -82.55189399999999
+            },
+            "southwest" : {
+               "lat" : 35.5945246,
+               "lng" : -82.55429599999999
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "arrival_time" : {
+                  "text" : "4:49pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401569366
+               },
+               "departure_time" : {
+                  "text" : "4:45pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401569125
+               },
+               "distance" : {
+                  "text" : "0.4 mi",
+                  "value" : 717
+               },
+               "duration" : {
+                  "text" : "4 mins",
+                  "value" : 241
+               },
+               "end_address" : "63-83 U.S. 74 Alternate, Asheville, NC 28801, USA",
+               "end_location" : {
+                  "lat" : 35.5945246,
+                  "lng" : -82.55427879999999
+               },
+               "start_address" : "12-18 Woodfin Street, Asheville, NC 28801, USA",
+               "start_location" : {
+                  "lat" : 35.5982596,
+                  "lng" : -82.55257750000001
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "171 ft",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : {
+                        "lat" : 35.598318,
+                        "lng" : -82.55312499999999
+                     },
+                     "html_instructions" : "Walk to Broadway St at Woodfin St",
+                     "polyline" : {
+                        "points" : "cxgxErpzvNJv@a@f@HJ"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5982596,
+                        "lng" : -82.55257750000001
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 18
+                           },
+                           "end_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eWoodfin St\u003c/b\u003e toward \u003cb\u003eBroadway\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "cxgxErpzvNJv@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5982596,
+                              "lng" : -82.55257750000001
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 15
+                           },
+                           "end_location" : {
+                              "lat" : 35.598318,
+                              "lng" : -82.55312499999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBroadway\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "wwgxEjrzvNa@f@HJ"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 514
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 120
+                     },
+                     "end_location" : {
+                        "lat" : 35.595256,
+                        "lng" : -82.55362599999999
+                     },
+                     "html_instructions" : "Bus towards ART Station",
+                     "polyline" : {
+                        "points" : "oxgxE~szvNIKx@{@z@g@vE}@rE_AVGbAtIOD"
+                     },
+                     "start_location" : {
+                        "lat" : 35.598318,
+                        "lng" : -82.55312499999999
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.595256,
+                              "lng" : -82.55362599999999
+                           },
+                           "name" : "College St at Haywood St"
+                        },
+                        "arrival_time" : {
+                           "text" : "4:48pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401569280
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.598318,
+                              "lng" : -82.55312499999999
+                           },
+                           "name" : "Broadway St at Woodfin St"
+                        },
+                        "departure_time" : {
+                           "text" : "4:46pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401569160
+                        },
+                        "headsign" : "ART Station",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#a6d070",
+                           "name" : "North 1",
+                           "short_name" : "N1",
+                           "text_color" : "#000000",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/N1%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 3
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "495 ft",
+                        "value" : 151
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 124
+                     },
+                     "end_location" : {
+                        "lat" : 35.5945246,
+                        "lng" : -82.55427879999999
+                     },
+                     "html_instructions" : "Walk to 63-83 U.S. 74 Alternate, Asheville, NC 28801, USA",
+                     "polyline" : {
+                        "points" : "kegxEdwzvNNENnAJz@zA}@Jx@"
+                     },
+                     "start_location" : {
+                        "lat" : 35.595256,
+                        "lng" : -82.55362599999999
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "213 ft",
+                              "value" : 65
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 58
+                           },
+                           "end_location" : {
+                              "lat" : 35.5950419,
+                              "lng" : -82.55429599999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eCollege St\u003c/b\u003e toward \u003cb\u003eHaywood St\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "kegxEdwzvNNENnAJz@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.595256,
+                              "lng" : -82.55362599999999
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "194 ft",
+                              "value" : 59
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 48
+                           },
+                           "end_location" : {
+                              "lat" : 35.5945769,
+                              "lng" : -82.55399200000001
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHaywood St\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : {
+                              "points" : "_dgxEj{zvNzA}@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5950419,
+                              "lng" : -82.55429599999999
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "89 ft",
+                              "value" : 27
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 18
+                           },
+                           "end_location" : {
+                              "lat" : 35.5945246,
+                              "lng" : -82.55427879999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003ePatton Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "cagxElyzvNJx@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5945769,
+                              "lng" : -82.55399200000001
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "cxgxErpzvNJv@a@f@HJIKx@{@z@g@jL}BVGbAtIODNEZjCzA}@Jx@"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

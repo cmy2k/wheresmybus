@@ -1,0 +1,345 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 35.59837,
+               "lng" : -82.512322
+            },
+            "southwest" : {
+               "lat" : 35.4354445,
+               "lng" : -82.556467
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "arrival_time" : {
+                  "text" : "6:08pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401574121
+               },
+               "departure_time" : {
+                  "text" : "5:15pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401570925
+               },
+               "distance" : {
+                  "text" : "13.1 mi",
+                  "value" : 21022
+               },
+               "duration" : {
+                  "text" : "53 mins",
+                  "value" : 3196
+               },
+               "end_address" : "61 Terminal Drive, Asheville Regional Airport, Fletcher, NC 28732, USA",
+               "end_location" : {
+                  "lat" : 35.4354445,
+                  "lng" : -82.5376656
+               },
+               "start_address" : "12-18 Woodfin Street, Asheville, NC 28801, USA",
+               "start_location" : {
+                  "lat" : 35.5982596,
+                  "lng" : -82.55257750000001
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "171 ft",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : {
+                        "lat" : 35.598318,
+                        "lng" : -82.55312499999999
+                     },
+                     "html_instructions" : "Walk to Broadway St at Woodfin St",
+                     "polyline" : {
+                        "points" : "cxgxErpzvNJv@a@f@HJ"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5982596,
+                        "lng" : -82.55257750000001
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 18
+                           },
+                           "end_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eWoodfin St\u003c/b\u003e toward \u003cb\u003eBroadway\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "cxgxErpzvNJv@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5982596,
+                              "lng" : -82.55257750000001
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 15
+                           },
+                           "end_location" : {
+                              "lat" : 35.598318,
+                              "lng" : -82.55312499999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBroadway\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "wwgxEjrzvNa@f@HJ"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 952
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 240
+                     },
+                     "end_location" : {
+                        "lat" : 35.5928145,
+                        "lng" : -82.55569729999999
+                     },
+                     "html_instructions" : "Bus towards ART Station",
+                     "polyline" : {
+                        "points" : "oxgxE~szvNIKx@{@z@g@vE}@rE_AVGbAtIZjCrAxAXVL@X~BnH{AA|BE@"
+                     },
+                     "start_location" : {
+                        "lat" : 35.598318,
+                        "lng" : -82.55312499999999
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.5928145,
+                              "lng" : -82.55569729999999
+                           },
+                           "name" : "ART Station"
+                        },
+                        "arrival_time" : {
+                           "text" : "5:20pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401571200
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.598318,
+                              "lng" : -82.55312499999999
+                           },
+                           "name" : "Broadway St at Woodfin St"
+                        },
+                        "departure_time" : {
+                           "text" : "5:16pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401570960
+                        },
+                        "headsign" : "ART Station",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#6253a2",
+                           "name" : "North 2",
+                           "short_name" : "N2",
+                           "text_color" : "#ffffff",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/N2%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "12.4 mi",
+                        "value" : 19958
+                     },
+                     "duration" : {
+                        "text" : "38 mins",
+                        "value" : 2280
+                     },
+                     "end_location" : {
+                        "lat" : 35.435811,
+                        "lng" : -82.537747
+                     },
+                     "html_instructions" : "Bus towards Asheville Airport",
+                     "polyline" : {
+                        "points" : "avfxEbd{vNF?CbCdKRtJ@dJ_@fIGx@M~@]`@QfQqI~NuF~@}@h@}@BElBaBpJgE|@O|Jk@xF[bBF|Gh@jAC|Ac@p@s@b@{@pKa[b@cAp@_Af@]t@i@xAc@hB{@n@i@jAgBXy@hFeB`BaApJiG\\G~CoCnEgDvAy@hBo@jDy@`Ei@TK~ANfEnAzBr@pANjBGzAc@~@k@vEcE~QaMFElCwAzIyBfMiDlWqHnBkAtRiNdDoBtCgAfB[pBChBPd[hFtFh@xMh@fEDfEK`Gk@rPiDvQyBnPoC|M_ClPoCfZuIjEsBtMoHtBaApBk@bBYlF[jGB`Kz@`Bb@tAl@lEdDlBhAfC`ApGnB|T|GnAT`CNxAIFApSgDdF]F?`DSnAS`Bi@rD}AlEeB~N}CpBw@bEcCtAgApFaGrCeClQoKrDgBxC_BdLyHtFgDP@pIuF^WhBrI`@vDLb@XpILnAVpAz@jCnAzBtBtB|ThQbGzE|BfCdBvC|AxDpGnUxBdFxArBfB~AnGfDpPbIfZzJdD`AhD^d@n@tBdAtAhAn@ZjAFt@UFX"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5928145,
+                        "lng" : -82.55569729999999
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.435811,
+                              "lng" : -82.537747
+                           },
+                           "name" : "Terminal Dr at Asheville Regional Airport"
+                        },
+                        "arrival_time" : {
+                           "text" : "6:08pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401574080
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.5928145,
+                              "lng" : -82.55569729999999
+                           },
+                           "name" : "ART Station"
+                        },
+                        "departure_time" : {
+                           "text" : "5:30pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401571800
+                        },
+                        "headsign" : "Asheville Airport",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#f288b4",
+                           "name" : "South 3",
+                           "short_name" : "S3",
+                           "text_color" : "#ffffff",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/S3%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 39
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "197 ft",
+                        "value" : 60
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : {
+                        "lat" : 35.4354445,
+                        "lng" : -82.5376656
+                     },
+                     "html_instructions" : "Walk to 61 Terminal Drive, Asheville Regional Airport, Fletcher, NC 28732, USA",
+                     "polyline" : {
+                        "points" : "y`hwE|swvNGWdA_@Jf@"
+                     },
+                     "start_location" : {
+                        "lat" : 35.435811,
+                        "lng" : -82.537747
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "135 ft",
+                              "value" : 41
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 28
+                           },
+                           "end_location" : {
+                              "lat" : 35.4355004,
+                              "lng" : -82.53747129999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eTerminal Dr\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "y`hwE|swvNGWdA_@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.435811,
+                              "lng" : -82.537747
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "62 ft",
+                              "value" : 19
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 13
+                           },
+                           "end_location" : {
+                              "lat" : 35.4354445,
+                              "lng" : -82.5376656
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "{~gwEdrwvNJf@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.4355004,
+                              "lng" : -82.53747129999999
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "cxgxErpzvNJv@a@f@HJIKx@{@z@g@jL}BVGbAtIZjCrAxAXVL@X~BnH{AA|BE@F?CbCdKRtJ@dJ_@fIGx@M~@]hRcJ~NuF~@}@l@cAlBaBpJgE|@O|Jk@xF[bBF|Gh@jAC|Ac@p@s@b@{@pKa[b@cAp@_A|AgAxAc@hB{@n@i@jAgBXy@hFeBrMkI\\G~CoCnEgDvAy@hBo@jDy@`Ei@TK~ANfEnAzBr@pANjBGzAc@~@k@vEcEfRgMlCwAzIyBfMiDlWqHnBkAtRiNdDoBtCgAfB[pBChBPd[hFtFh@xMh@fEDfEK`Gk@rPiDvQyBnPoCj_@oGfZuIjEsBtMoHtBaApBk@bBYlF[jGB`Kz@`Bb@tAl@lEdDlBhAfC`An]lKnAT`CN`BKpSgDdF]hDSnAS`Bi@`KcE~N}CpBw@bEcCtAgApFaGrCeClQoKrDgBxC_BdLyHtFgDP@pJmGhBrI`@vDLb@XpILnAVpAz@jCnAzBtBtB|ThQbGzE|BfCdBvC|AxDpGnUxBdFxArBfB~AnGfDpPbIfZzJdD`AhD^d@n@tBdAtAhAn@ZjAFt@UFXGWdA_@Jf@"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

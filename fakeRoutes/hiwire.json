@@ -1,0 +1,275 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 35.59837,
+               "lng" : -82.55189399999999
+            },
+            "southwest" : {
+               "lat" : 35.5910587,
+               "lng" : -82.5559576
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "arrival_time" : {
+                  "text" : "4:53pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401569598
+               },
+               "departure_time" : {
+                  "text" : "4:45pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401569125
+               },
+               "distance" : {
+                  "text" : "0.8 mi",
+                  "value" : 1294
+               },
+               "duration" : {
+                  "text" : "8 mins",
+                  "value" : 473
+               },
+               "end_address" : "198 Hilliard Avenue, Asheville, NC 28801, USA",
+               "end_location" : {
+                  "lat" : 35.5911287,
+                  "lng" : -82.5559576
+               },
+               "start_address" : "12-18 Woodfin Street, Asheville, NC 28801, USA",
+               "start_location" : {
+                  "lat" : 35.5982596,
+                  "lng" : -82.55257750000001
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "171 ft",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : {
+                        "lat" : 35.598318,
+                        "lng" : -82.55312499999999
+                     },
+                     "html_instructions" : "Walk to Broadway St at Woodfin St",
+                     "polyline" : {
+                        "points" : "cxgxErpzvNJv@a@f@HJ"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5982596,
+                        "lng" : -82.55257750000001
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 18
+                           },
+                           "end_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eWoodfin St\u003c/b\u003e toward \u003cb\u003eBroadway\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "cxgxErpzvNJv@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5982596,
+                              "lng" : -82.55257750000001
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "85 ft",
+                              "value" : 26
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 15
+                           },
+                           "end_location" : {
+                              "lat" : 35.598318,
+                              "lng" : -82.55312499999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBroadway\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "wwgxEjrzvNa@f@HJ"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5981968,
+                              "lng" : -82.55286009999999
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 mi",
+                        "value" : 952
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 240
+                     },
+                     "end_location" : {
+                        "lat" : 35.5928145,
+                        "lng" : -82.55569729999999
+                     },
+                     "html_instructions" : "Bus towards ART Station",
+                     "polyline" : {
+                        "points" : "oxgxE~szvNIKx@{@z@g@vE}@rE_AVGbAtIZjCrAxAXVL@X~BnH{AA|BE@"
+                     },
+                     "start_location" : {
+                        "lat" : 35.598318,
+                        "lng" : -82.55312499999999
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.5928145,
+                              "lng" : -82.55569729999999
+                           },
+                           "name" : "ART Station"
+                        },
+                        "arrival_time" : {
+                           "text" : "4:50pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401569400
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.598318,
+                              "lng" : -82.55312499999999
+                           },
+                           "name" : "Broadway St at Woodfin St"
+                        },
+                        "departure_time" : {
+                           "text" : "4:46pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401569160
+                        },
+                        "headsign" : "ART Station",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#a6d070",
+                           "name" : "North 1",
+                           "short_name" : "N1",
+                           "text_color" : "#000000",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/N1%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 5
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 290
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 198
+                     },
+                     "end_location" : {
+                        "lat" : 35.5911287,
+                        "lng" : -82.5559576
+                     },
+                     "html_instructions" : "Walk to 198 Hilliard Avenue, Asheville, NC 28801, USA",
+                     "polyline" : {
+                        "points" : "avfxEbd{vNUuBf@IzAKnFJItBC|@"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5928145,
+                        "lng" : -82.55569729999999
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "0.1 mi",
+                              "value" : 208
+                           },
+                           "duration" : {
+                              "text" : "2 mins",
+                              "value" : 123
+                           },
+                           "end_location" : {
+                              "lat" : 35.5910587,
+                              "lng" : -82.55505749999999
+                           },
+                           "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eCoxe Ave\u003c/b\u003e toward \u003cb\u003eAston St\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "avfxEbd{vNUuBf@IzAKnFJ"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5928145,
+                              "lng" : -82.55569729999999
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "269 ft",
+                              "value" : 82
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 75
+                           },
+                           "end_location" : {
+                              "lat" : 35.5911287,
+                              "lng" : -82.5559576
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eHilliard Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "ckfxEb`{vNItBC|@"
+                           },
+                           "start_location" : {
+                              "lat" : 35.5910587,
+                              "lng" : -82.55505749999999
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "cxgxErpzvNJv@a@f@HJIKx@{@z@g@jL}BVGbAtIZjCrAxAXVL@X~BnH{AA|BE@UuBf@IzAKnFJMrD"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
