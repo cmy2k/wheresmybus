@@ -139,16 +139,53 @@ $.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors
 
     var live = 'https://maps.googleapis.com/maps/api/directions/json?origin=35.598127,-82.552533&destination=35.436967,-82.536871&sensor=false&key=AIzaSyBKy2YUCCMY79tYdTkcdAYJJAEN6WsIhIE&departure_time=1401549743&mode=transit';
 
-    var fake = 'google.json';
-
     $('#clickair').on('click', function(){
-	$.getJSON(fake, function(data) {
+	$.getJSON('fakeRoutes/airport.json', function(data) {
 	    $('#airport').html('');
+	    $('#home').html('');
+	    $('#downtown').html('');
+	    $('#hiwire').html('');
 	    $.each(data.routes[0].legs[0].steps, function(i, inst) {
 		$('#airport').append('<li>' + inst.html_instructions + '</li>');
 	    });
 	});
 
+    });
+
+    $('#clickhome').on('click', function(){
+	$.getJSON('fakeRoutes/home.json', function(data) {
+	    $('#airport').html('');
+	    $('#home').html('');
+	    $('#downtown').html('');
+	    $('#hiwire').html('');
+	    $.each(data.routes[0].legs[0].steps, function(i, inst) {
+		$('#home').append('<li>' + inst.html_instructions + '</li>');
+	    });
+	});
+    });
+
+    $('#clickdown').on('click', function(){
+	$.getJSON('fakeRoutes/downtown.json', function(data) {
+	    $('#airport').html('');
+	    $('#home').html('');
+	    $('#downtown').html('');
+	    $('#hiwire').html('');
+	    $.each(data.routes[0].legs[0].steps, function(i, inst) {
+		$('#downtown').append('<li>' + inst.html_instructions + '</li>');
+	    });
+	});
+    });
+
+    $('#take').on('click', function(){
+	$.getJSON('fakeRoutes/hiwire.json', function(data) {
+	    $('#airport').html('');
+	    $('#home').html('');
+	    $('#downtown').html('');
+	    $('#hiwire').html('');
+	    $.each(data.routes[0].legs[0].steps, function(i, inst) {
+		$('#hiwire').append('<li>' + inst.html_instructions + '</li>');
+	    });
+	});
     });
 
 
