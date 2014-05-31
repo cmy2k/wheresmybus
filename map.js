@@ -14,21 +14,6 @@ $(document).ready(function() {
         maxZoom: 18
     }).addTo(map);
 
-    var busStops = L.tileLayer.wms("http://opendataserver.ashevillenc.gov/geoserver/ows", {
-	    layers: 'coa_transit_bus_stops',
-	    format: 'image/png',
-	    transparent: true,
-	    attribution: "Bus stops"
-    }).addTo(map);
-
-    $.getJSON('data/busstops.json', function(json) {
-	L.geoJson( json, {
-	    style: function(feature) {
-		return {color: '#000000'};
-	    }
-	} ).addTo(map);
-    });
-
 /*
 
     var routes = L.tileLayer.wms("http://opendataserver.ashevillenc.gov/geoserver/ows", {
@@ -39,18 +24,40 @@ $(document).ready(function() {
     }).addTo(map);
 */
 
-$.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors){
-    $.getJSON('data/busroutes.json', function(json) {
-	L.geoJson( json, {
-	    style: function(feature) {
-		//console.log( colors[feature.properties.route_number.toLowerCase()] );
-		return {weight: 10,
-			opacity: 1.0,
-			color: colors[feature.properties.route_number]};
-	    }
-	} ).addTo(map);
+
+    $.getJSON('http://api.ashevilletechevents.com/api/routecolors/', function(colors){
+        $.getJSON('data/busroutes.json', function(json) {
+	        L.geoJson( json, {
+	            style: function(feature) {
+		            //console.log( colors[feature.properties.route_number.toLowerCase()] );
+		            return {weight: 10,
+			                opacity: 1.0,
+			                color: colors[feature.properties.route_number]};
+	            }
+	        } ).addTo(map, true);
+
+    $.getJSON('data/busstops.json', function(json) {
+	    L.geoJson( json, {
+	        style: function(feature) {
+		        return {color: '#000000'};
+	        },
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                    radius: 4,
+                    fillColor: "#222",
+                    color: "#000",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+            }
+	    } ).addTo(map);
     });
-});
+
+
+        });
+    });
+
 
 //    
 //    
