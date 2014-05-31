@@ -1,0 +1,297 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 35.6257706,
+               "lng" : -82.51207599999999
+            },
+            "southwest" : {
+               "lat" : 35.430961,
+               "lng" : -82.567858
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "arrival_time" : {
+                  "text" : "1:18pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401556716
+               },
+               "departure_time" : {
+                  "text" : "12:05pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1401552345
+               },
+               "distance" : {
+                  "text" : "18.4 mi",
+                  "value" : 29548
+               },
+               "duration" : {
+                  "text" : "1 hour 13 mins",
+                  "value" : 4371
+               },
+               "end_address" : "783-795 U.S. 25, Asheville, NC 28804, USA",
+               "end_location" : {
+                  "lat" : 35.6257706,
+                  "lng" : -82.5538378
+               },
+               "start_address" : "114 Terminal Drive, Asheville Regional Airport, Fletcher, NC 28732, USA",
+               "start_location" : {
+                  "lat" : 35.437002,
+                  "lng" : -82.536834
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 186
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 135
+                     },
+                     "end_location" : {
+                        "lat" : 35.435811,
+                        "lng" : -82.537747
+                     },
+                     "html_instructions" : "Walk to Terminal Dr at Asheville Regional Airport",
+                     "polyline" : {
+                        "points" : "ghhwEdnwvNEFELAH?H?D?DBHBFDFJNZb@JJVLVLRD`@BTAVGVIDAFV"
+                     },
+                     "start_location" : {
+                        "lat" : 35.437002,
+                        "lng" : -82.536834
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "0.1 mi",
+                              "value" : 186
+                           },
+                           "duration" : {
+                              "text" : "2 mins",
+                              "value" : 135
+                           },
+                           "end_location" : {
+                              "lat" : 35.435811,
+                              "lng" : -82.537747
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003eTerminal Dr\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "polyline" : {
+                              "points" : "ghhwEdnwvNEFELAH?H?D?DBHBFDFJNZb@JJVLVLRD`@BTAVGVIDAFV"
+                           },
+                           "start_location" : {
+                              "lat" : 35.437002,
+                              "lng" : -82.536834
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "13.3 mi",
+                        "value" : 21472
+                     },
+                     "duration" : {
+                        "text" : "36 mins",
+                        "value" : 2160
+                     },
+                     "end_location" : {
+                        "lat" : 35.5928145,
+                        "lng" : -82.55569729999999
+                     },
+                     "html_instructions" : "Bus towards ART Station",
+                     "polyline" : {
+                        "points" : "y`hwE|swvNGYhKmDv@OhAHdB|@z@Pz@?rCm@p@g@Vi@Hk@AkA]}@e@mAGu@qADaELyBV{N`FgDp@cCPqBAiD_@q^oL}S_K_DaB}AkAeAmAsAuBcBaEmGeUaBcEeBwC}BgCeG}EeWiSw@cAcAkBgAuDYwBYqIH_@MsB{@aFkAiFcAl@gIzFEP{GbEuI~FiHvDcTdMkC|BqF`GuAfAcCvAqCvA_PhDoEfBqDzAaBh@oARaDRG?eF\\gSdDeAH_CEwB[iSkGcJmCmD_BqEkD}Ay@}@]yCg@iHg@kGCmFZcBXsBl@sB~@oOrIqD~AcFvAgRnFkPnC{M|BoPnCwQxBsPhDaFf@iDLoE?oOm@kDYiDg@eXqEoBQkBByB`@cC`AgDpBsRfNoBjAiJlCwLjD_LxCoJ`CiAf@qAz@yQzLwEbE_Aj@{Ab@qBF{AUcCw@oDeAaC]}CXuFnAgDhBaJrHS^_IfFsCbBiFdBOj@w@rA{@z@q@d@eE|A[?g@^k@r@q@vAwKf[y@xAk@j@k@PeADyE[yDUmIb@iHb@gARgJbEaBrAkAfBm@f@_OtFgQpIm@Vs@Vy@LgIF_I\\_HD{DGVwGJwBA?MxBoFKaBJE~BE?"
+                     },
+                     "start_location" : {
+                        "lat" : 35.435811,
+                        "lng" : -82.537747
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.5928145,
+                              "lng" : -82.55569729999999
+                           },
+                           "name" : "ART Station"
+                        },
+                        "arrival_time" : {
+                           "text" : "12:44pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401554640
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.435811,
+                              "lng" : -82.537747
+                           },
+                           "name" : "Terminal Dr at Asheville Regional Airport"
+                        },
+                        "departure_time" : {
+                           "text" : "12:08pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401552480
+                        },
+                        "headsign" : "ART Station",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#f288b4",
+                           "name" : "South 3",
+                           "short_name" : "S3",
+                           "text_color" : "#ffffff",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/S3%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 42
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.9 mi",
+                        "value" : 7849
+                     },
+                     "duration" : {
+                        "text" : "18 mins",
+                        "value" : 1080
+                     },
+                     "end_location" : {
+                        "lat" : 35.625394,
+                        "lng" : -82.553917
+                     },
+                     "html_instructions" : "Bus towards Beaver Lake Loop",
+                     "polyline" : {
+                        "points" : "avfxEbd{vNF?EfCyFS?AQCmAsK_BmNeCb@mDt@uFdAsAz@c@h@_CbCeDr@iCs@AAuFkAwG_@eJSmCFoAPiHvBoDbAqJpBwGrAmBF}CGcHYcD[Cr@U`IFf@b@~@lEjGDHLh@Dn@U~LGNQbGo@x@_ARyK]u@D]Z[tAc@d@sA?sBOa@Sa@i@YjAEdA@|BLpCRt@p@rAdBpBBBPRfC|@nC`C|@L`AMd@Q^c@lCaEH_@@e@[kAwDyEmCuCg@[_AQi@s@TgATWZGzLZbB[XFNWCSMMP_GEIViMEo@Ss@EGgEcGc@_AGg@XuJmE}@EC}Bs@{BUuB@gLf@}Pt@kH_AoC}@FS"
+                     },
+                     "start_location" : {
+                        "lat" : 35.5928145,
+                        "lng" : -82.55569729999999
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 35.625394,
+                              "lng" : -82.553917
+                           },
+                           "name" : "Merrimon Ave at Gracelyn Rd"
+                        },
+                        "arrival_time" : {
+                           "text" : "1:18pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401556680
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 35.5928145,
+                              "lng" : -82.55569729999999
+                           },
+                           "name" : "ART Station"
+                        },
+                        "departure_time" : {
+                           "text" : "1:00pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1401555600
+                        },
+                        "headsign" : "Beaver Lake Loop",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Asheville Redefines Transit",
+                                 "phone" : "(828) 253-5691",
+                                 "url" : "http://www.ashevillenc.gov/Departments/Transit.aspx"
+                              }
+                           ],
+                           "color" : "#a6d070",
+                           "name" : "North 1",
+                           "short_name" : "N1",
+                           "text_color" : "#000000",
+                           "url" : "http://www.ashevillenc.gov/Portals/0/city-documents/transit/newrouteschedules/N1%20Timetable%20(04062012).pdf",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/bus.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 23
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "135 ft",
+                        "value" : 41
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : 35.6257706,
+                        "lng" : -82.5538378
+                     },
+                     "html_instructions" : "Walk to 783-795 U.S. 25, Asheville, NC 28804, USA",
+                     "polyline" : {
+                        "points" : "uamxE~xzvNGR]Oe@S"
+                     },
+                     "start_location" : {
+                        "lat" : 35.625394,
+                        "lng" : -82.553917
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "135 ft",
+                              "value" : 41
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 34
+                           },
+                           "end_location" : {
+                              "lat" : 35.6257706,
+                              "lng" : -82.5538378
+                           },
+                           "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003eMerrimon Ave\u003c/b\u003e toward \u003cb\u003eGracelyn Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "polyline" : {
+                              "points" : "uamxE~xzvNGR]Oe@S"
+                           },
+                           "start_location" : {
+                              "lat" : 35.625394,
+                              "lng" : -82.553917
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ghhwEdnwvNKTARF\\PVf@n@n@Zt@HTAVG\\KFVGYhKmDv@OhAHdB|@z@Pz@?rCm@p@g@Vi@Hk@AkA]}@e@mAGu@sGRyBV{N`FgDp@cCPqBAiD_@q^oL}S_K_DaB}AkAeAmAsAuBcBaEmGeUaBcEeBwC}BgCeG}EeWiSw@cAcAkBgAuDYwBYqIH_@MsB{@aFkAiFcAl@gIzFEP{GbEuI~FiHvDcTdMkC|BqF`GuAfAcCvAqCvA_PhDoEfBqDzAaBh@oARaDRmF\\gSdDeAH_CEwB[m^yKmD_BqEkD}Ay@}@]yCg@iHg@kGCmFZcBXsBl@sB~@oOrIqD~AcFvAgRnFkPnCk_@lGwQxBsPhDaFf@iDLoE?oOm@kDYiDg@eXqEoBQkBByB`@cC`AgDpBsRfNoBjAaXxH_LxCoJ`CiAf@qAz@yQzLwEbE_Aj@{Ab@qBF{AUsH}BaC]}CXuFnAgDhBaJrHS^_IfFsCbBiFdBOj@w@rA{@z@q@d@eE|A[?g@^k@r@q@vAwKf[y@xAk@j@k@PeADyE[yDUmIb@iHb@gARgJbEaBrAkAfBm@f@_OtFgQpIaBn@y@LgIF_I\\_HD{DGVwGHwBMxBoFKaBJE~BE?F?EfCyFSQEmDa[sHxAuFdAsAz@cDlDeDr@iCs@wFmAwG_@eJSmCFoAPyMzDiSdEmBF}CGcHYcD[YtJFf@b@~@rEtGLh@Dn@U~LGNQbGo@x@_ARyK]u@D]Z[tAc@d@sA?sBOa@Sa@i@YjAEdA@|BLpCRt@p@rAhBtBPRfC|@nC`C|@L`AMd@Q^c@lCaEH_@@e@[kAwDyEmCuCg@[_AQi@s@TgATWZGzLZbB[XFNWCSMMP_GEIViMEo@Ss@mEkGc@_AGg@XuJmE}@cCw@{BUuB@e^|AkH_AoC}@FSGRcAc@"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
