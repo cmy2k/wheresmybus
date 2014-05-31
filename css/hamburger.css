@@ -13,6 +13,7 @@ body {
 Header is relative so z-index: 1 guarantees always displayed on top
 */
 header {
+    overflow: auto;
     background-color: #3b5998;
     padding: 10px;
     text-decoration: none;
