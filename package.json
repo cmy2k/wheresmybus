@@ -1,0 +1,24 @@
+{
+  "name": "wheresmybus",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cmy2k/wheresmybus"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmy2k/wheresmybus/issues"
+  },
+  "homepage": "https://github.com/cmy2k/wheresmybus",
+  "dependencies": {
+    "leaflet": "~0.7.3",
+    "jquery": "~2.1.1",
+    "gps": "https://github.com/adamauckland/leaflet-gps"
+  }
+}
