@@ -1,0 +1,16 @@
+.directions 
+{
+	
+}
+
+.directions li
+{
+	color: #444;
+	background-color: #CCC;
+}
+
+.directions .urgent
+{
+	color: #F00;
+	front-weight: bold;
+}

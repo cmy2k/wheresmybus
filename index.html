@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/hamburger.css" />
     <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="map.css" />
+	<link rel="stylesheet" type="text/css" href="css/directions.css" />
 <!--    <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
     <script src="node_modules/leaflet/dist/leaflet.js"></script>
     <link rel="stylesheet" href="lib/leaflet-locatecontrol/src/L.Control.Locate.css" />
@@ -42,7 +43,22 @@
         <nav class="mobileNav">
             <ul>
 	        <li><a id="locateBtn" href="#">Zoom to me</a></li>
-                <li><a href="#">Going Home?</a></li>
+                <li><a href="#">Going to Airport?</a>
+					<div class="directions" >
+						<ul>
+							<li>Southeast on Broadway to W. Walnut St. (0.2mi)</li>
+							<li><span class="urgent">5 min</span> Route S3 towards Asheville Airport</li>
+							<li>Exit Terminal Dr at Asheville Regional Airport</li>
+						</ul>
+					</div>
+				</li>
+                <li><a href="#">Going Home?</a>
+					<div class="directions" >
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</li>
                 <li><a href="#">Going Downtown?</a></li>
                 <li><form name="go" action="#">               
 					I'm going to <input type="text" name="location"/>...
@@ -52,7 +68,7 @@
             </ul>
         </nav>
 
-        <!--The Layer that will be layed over the content
+        <!--The Layer that will be layered over the content
         so that the content is unclickable while menu is shown-->
         <div id="contentLayer"></div>
 
