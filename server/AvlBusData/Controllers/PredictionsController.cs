@@ -19,7 +19,7 @@ namespace AvlBusData.Controllers
             var command = new PredictionsCommand(route.Tag, stop.Tag);
             try
             {
-                var predictions = command.Execute().Result;
+                var predictions = command.Execute();
                 return Json(predictions, Data.JsonSettings);
             }
             catch (Exception)

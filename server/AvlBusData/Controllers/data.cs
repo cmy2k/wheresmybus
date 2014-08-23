@@ -25,7 +25,7 @@ namespace AvlBusData.Controllers
                     var command = new VehicleLocationsCommand();
                     try
                     {
-                        var locations = command.Execute().Result;
+                        var locations = command.Execute();
                         locations.Locations.ForEach(l => l.RouteTitle = Routes[l.RouteTag].Title);
                         _locations = locations;
                     }
@@ -49,13 +49,13 @@ namespace AvlBusData.Controllers
                     var command = new RouteListCommand();
                     try
                     {
-                        var routes = command.Execute().Result.ToList();
+                        var routes = command.Execute().ToList();
                         foreach (var route in routes)
                         {
                             var routeConfigCommand = new RouteConfigCommand(route.Tag);
                             try
                             {
-                                var routeConfig = routeConfigCommand.Execute().Result;
+                                var routeConfig = routeConfigCommand.Execute();
                                 route.Stops = routeConfig.Stops;
                                 route.ColorHex = routeConfig.ColorHex;
                                 route.OppositeColorHex = routeConfig.OppositeColorHex;
